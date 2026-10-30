@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom/vitest"],
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["src/__tests__", "src/test"]
+}
